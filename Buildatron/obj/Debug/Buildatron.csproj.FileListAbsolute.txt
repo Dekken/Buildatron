@@ -1,0 +1,32 @@
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AutoMav.resources
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingsForm.resources
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.csproj.GenerateResource.Cache
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AutoMav.resources
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingsForm.resources
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.csproj.GenerateResource.Cache
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AutoMav.resources
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingsForm.resources
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResGen.read.1.tlog
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResGen.write.1.tlog
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\Buildatron\obj\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2012\WindowsFormsApplication1\Buildatron\obj\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2012\Buildatron\Buildatron\obj\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2012\Buildatron\Buildatron\obj\Debug\WindowsFormsApplication1.pdb
