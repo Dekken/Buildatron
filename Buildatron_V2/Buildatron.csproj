@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5AA49CA0-4756-4217-A7D7-770277EA0A45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Buildatron</RootNamespace>
+    <AssemblyName>Buildatron</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>83E13459C589E95EBD393645296553B2F85E7B22</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Buildatron_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>C:\deploy\mine\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\ViewableCommands.cs" />
+    <Compile Include="Handling\Process\ProcessHandle.cs" />
+    <Compile Include="Scene\s\userControl\rights\err\FailToMoveDataGridViewRowException.cs" />
+    <Compile Include="Scene\s\userControl\rights\operational\services\directory\input\OperationalControlDirectoryInputService.cs" />
+    <Compile Include="Scene\s\userControl\rights\operational\OperationalControl.UIActions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\operational\services\Setup\OperationalControlSetupService.cs" />
+    <Compile Include="Scene\s\userControl\rights\operational\services\datagrid\OperationalControlDataGridHandler.cs" />
+    <Compile Include="Handling\ThreadHandler.cs" />
+    <Compile Include="Handling\Execution\ExecutionThreadHandler.cs" />
+    <Compile Include="Handling\Execution\ExecutionHandler.cs" />
+    <Compile Include="Handling\Maven\MavenXMLHandler.cs" />
+    <Compile Include="Handling\Process\Application\CommandLine.cs" />
+    <Compile Include="Commands\ProcessCaller.cs">
+    </Compile>
+    <Compile Include="Handling\Process\App.cs" />
+    <Compile Include="Handling\XML\ProcessHandler.cs" />
+    <Compile Include="Handling\Process\ProcessThreadHandler.cs" />
+    <Compile Include="Handling\XML\XPath\XpathHandler.cs" />
+    <Compile Include="Scene\s\main\MainForm.GetsAndSets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\lefts\services\treeControlView\LeftTreeControlViewMouseService.cs" />
+    <Compile Include="Scene\s\userControl\lefts\services\treeControlView\LeftTreeControlViewService.cs" />
+    <Compile Include="Scene\s\userControl\rights\operational\OperationalControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\operational\OperationalControl.Designer.cs">
+      <DependentUpon>OperationalControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\operational\OperationalControl.Service.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\PreloadedConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\PreloadedConfigurationControl.Designer.cs">
+      <DependentUpon>PreloadedConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\PreloadedConfigurationControl.Service.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\services\configurations\PreloadedConfigurationGetterService.cs" />
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\services\configurations\PreloadedConfigurationModificationsService.cs" />
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\services\configurations\PreloadedConfigurationValidationService.cs" />
+    <Compile Include="Scene\s\userControl\rights\settings\preloaded\services\configurations\validation\ConfigurationValidationRequirements.cs" />
+    <Compile Include="Scene\s\userControl\RightUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\RightUserControl.Designer.cs">
+      <DependentUpon>RightUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\s\userControl\LeftUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\LeftUserControl.Designer.cs">
+      <DependentUpon>LeftUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Scene\s\userControl\services\data\grid\view\DataGridViewKeyEventRowManager.cs" />
+    <Compile Include="Scene\s\userControl\services\master\configuration\MasterConfigurationGetterService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\services\master\configuration\MasterConfigurationModificationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\services\master\configuration\MasterConfigurationValidationService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\UserControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scene\s\userControl\UserControlForm.Designer.cs">
+      <DependentUpon>UserControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Forms\Data\Grid\View\Directory\DirectoryDataGridViewTextBoxCell.cs" />
+    <Compile Include="Windows\Forms\Data\Grid\View\Directory\DirectoryDataGridViewRow.cs">
+    </Compile>
+    <Compile Include="Windows\Forms\Tree\Node\Directory\DirectoryTreeNode.cs" />
+    <Compile Include="Scene\SceneManager.cs" />
+    <Compile Include="Global\Settings.cs" />
+    <Compile Include="Handling\Tree\DirectoryTreeViewThreadHandler.cs" />
+    <Compile Include="Handling\Tree\TreeViewHandler.cs" />
+    <Compile Include="Handling\Directory\DirectoryThreadHandler.cs" />
+    <Compile Include="System\FileDirectory.cs" />
+    <Compile Include="Global\HelperErrors.cs" />
+    <Compile Include="Global\Helper.cs" />
+    <Compile Include="Handling\Directory\DirectoryHandler.cs" />
+    <Compile Include="Handling\XmlHandler.cs" />
+    <Compile Include="Scene\s\main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Scene\s\main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="buildatron.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scene\s\main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scene\s\userControl\rights\operational\OperationalControl.resx">
+      <DependentUpon>OperationalControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scene\s\userControl\rights\settings\preloaded\PreloadedConfigurationControl.resx">
+      <DependentUpon>PreloadedConfigurationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scene\s\userControl\RightUserControl.resx">
+      <DependentUpon>RightUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scene\s\userControl\LeftUserControl.resx">
+      <DependentUpon>LeftUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Scene\s\userControl\UserControlForm.resx">
+      <DependentUpon>UserControlForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Windows\Forms\Tree\Node\Controls\ControlTreeNode.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="buildatron.Designer.xml" />
+    <Content Include="buildatron.xml">
+      <SubType>Form</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scene\s\userControl\bottoms\" />
+    <Folder Include="Scene\s\userControl\rights\operational\services\directory\tree\" />
+    <Folder Include="Scene\s\userControl\rights\settings\preloaded\commands\" />
+    <Folder Include="Scene\s\userControl\rights\settings\preloaded\directories\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
