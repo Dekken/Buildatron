@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <filePattern>
+  </filePattern>
+  <directories>
+    <directory>C:\pom</directory>
+    <directory>C:\apps</directory>
+  </directories>
+  <commands>
+    <command name="tree">tree</command>
+    <command name="lol">lol</command>
+  </commands>
+</configuration>

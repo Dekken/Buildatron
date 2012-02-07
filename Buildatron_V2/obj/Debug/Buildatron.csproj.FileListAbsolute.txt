@@ -1,0 +1,59 @@
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AutoMav.resources
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingsForm.resources
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.csproj.GenerateResource.Cache
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\code\cpp\VS\MavTest1\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AutoMav.resources
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.SettingsForm.resources
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\work\spaces\visual\studio\Buildatron source 2009\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.csproj.GenerateResource.Cache
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.buildatron.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.BuildingForm.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Properties.Resources.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.RightUserControl.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.LeftUserControl.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.rights.operational.OperationalControl.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.rights.settings.preloaded.PreloadedConfigurationControl.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.exe.manifest
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.application
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.exe
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.pdb
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.exe.manifest
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.application
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.exe
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.pdb
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.UserControlForm.resources
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResGen.read.1.tlog
+D:\work\spaces\visual\studio\Buildatron v2\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResGen.write.1.tlog
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.buildatron.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.BuildingForm.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Properties.Resources.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.BottomUserControl.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.rights.operational.OperationalControl.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.rights.settings.preloaded.PreloadedConfigurationControl.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.RightUserControl.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.userControl.LeftUserControl.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.Scene.s.UserControlForm.resources
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResGen.read.1.tlog
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\ResGen.write.1.tlog
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.exe.manifest
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.application
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.exe
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Buildatron.pdb
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.exe.manifest
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.application
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.exe
+D:\work\spaces\visual\studio\Buildatron v3\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\Buildatron.pdb
+D:\work\spaces\visual\studio\Buildatron v3\Buildatron_V2\Buildatron_V2\obj\Debug\Buildatron.exe
+D:\work\spaces\visual\studio\Buildatron v3\Buildatron_V2\Buildatron_V2\obj\Debug\Buildatron.pdb

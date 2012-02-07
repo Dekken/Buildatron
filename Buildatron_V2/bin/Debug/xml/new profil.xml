@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <filePattern>
+  </filePattern>
+  <directories>
+    <directory>C:\pom</directory>
+    <directory>C:\apps</directory>
+  </directories>
+  <commands>
+    <command name="tree">tree</command>
+    <command name="mvn">mvn</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+    <command name="name">command</command>
+  </commands>
+</configuration>
