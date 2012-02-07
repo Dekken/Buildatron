@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildatron", "Buildatron_V2\Buildatron.csproj", "{5AA49CA0-4756-4217-A7D7-770277EA0A45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buildatron", "Buildatron\Buildatron.csproj", "{5AA49CA0-4756-4217-A7D7-770277EA0A45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
