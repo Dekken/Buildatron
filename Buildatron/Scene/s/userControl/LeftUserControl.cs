@@ -15,6 +15,8 @@ using Buildatron.Scene.s.userControl.rights.settings.preloaded;
 namespace Buildatron.Scene.s.userControl {
     public partial class LeftUserControl : UserControl {
 
+        private HashSet<OperationalControl> opCons = new HashSet<OperationalControl>();
+
         private TreeNode viewRootNode;
 
         public LeftUserControl(Form f) {
@@ -48,7 +50,9 @@ namespace Buildatron.Scene.s.userControl {
         }
 
         private void createAndAddControlTreeNode(string path){
-            ControlTreeNode n = new ControlTreeNode(new OperationalControl((Form)this.Parent, path));
+            OperationalControl opCon = new OperationalControl((Form)this.Parent, path);
+            opCons.Add(opCon);
+            ControlTreeNode n = new ControlTreeNode(opCon);
             n.Text = path;
             n.Name = path;
             this.viewRootNode.Nodes.Add(n);
@@ -83,6 +87,11 @@ namespace Buildatron.Scene.s.userControl {
                 }
             }  
             return configs;
+        }
+
+        public void closeForm(object sender, FormClosingEventArgs e){
+            foreach(OperationalControl opCon in opCons)
+                opCon.closeForm(sender, e);
         }
     }    
 }

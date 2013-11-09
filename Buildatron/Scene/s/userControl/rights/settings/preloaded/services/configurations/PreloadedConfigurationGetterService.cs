@@ -7,72 +7,91 @@ using System.Xml.XPath;
 
 
 namespace Buildatron.Scene.s.userControl.rights.settings.preloaded.services.configurations {
-    class PreloadedConfigurationGetterService {
+	class PreloadedConfigurationGetterService {
 
-        private static PreloadedConfigurationGetterService instance;
-        public static PreloadedConfigurationGetterService getInstance() {
-            if (PreloadedConfigurationGetterService.instance == null) {
-                PreloadedConfigurationGetterService.instance = new PreloadedConfigurationGetterService();
-            }
-            return PreloadedConfigurationGetterService.instance;
-        }
+		private static PreloadedConfigurationGetterService instance;
+		public static PreloadedConfigurationGetterService getInstance() {
+			if (PreloadedConfigurationGetterService.instance == null) {
+				PreloadedConfigurationGetterService.instance = new PreloadedConfigurationGetterService();
+			}
+			return PreloadedConfigurationGetterService.instance;
+		}
 
-        public List<string> getDirectoriesFromXMLConfiguration(string config) {
-            XPathNavigator nav      = XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
-            XPathNodeIterator xpni = nav.Select("//configuration/directories/directory");
+		public List<string> getDirectoriesFromXMLConfiguration(string config) {
+			XPathNavigator nav	  = XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
+			XPathNodeIterator xpni = nav.Select("//configuration/directories/directory");
 
-            List<string> configs = new List<string>();
+			List<string> configs = new List<string>();
 
-            foreach (XPathNavigator item in xpni){
-                configs.Add(esc(item.Value));
-            }
+			foreach (XPathNavigator item in xpni){
+				configs.Add(esc(item.Value));
+			}
 
-            return configs;            
-        }
+			return configs;			
+		}
 
-        public List<Command>  getCommandsFromXMLConfiguration(string config) {
-            XPathNavigator nav      = XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
-            XPathNodeIterator xpni  = nav.Select("//configuration/commands/command");
-            List<Command> commands  = new List<Command>();
-            foreach (XPathNavigator item in xpni) {
-                commands.Add(new Command(esc(item.GetAttribute("name", "")), esc(item.Value)));
-            }
-            
-            return commands;
-        }
+		public List<Command> getCommandsFromXMLConfiguration(string config) {
+			XPathNavigator nav 		= XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
+			XPathNodeIterator xpni  = nav.Select("//configuration/commands/command");
+			List<Command> commands  = new List<Command>();
+			foreach (XPathNavigator item in xpni) {
+				commands.Add(new Command(esc(item.GetAttribute("name", "")), esc(item.Value)));
+			}
+			
+			return commands;
+		}
+		
+		public List<Sequence> getSequencesFromXMLConfiguration(string config) {
+			XPathNavigator nav 		= XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
+			XPathNodeIterator xpni  = nav.Select("//configuration/sequences/sequence");
+			List<Sequence> sequences  = new List<Sequence>();
+			foreach (XPathNavigator item in xpni) {
+				sequences.Add(
+					new Sequence(
+						esc(item.Value),
+						esc(item.GetAttribute("cmd", "")), 
+						esc(item.GetAttribute("inc", "")), 
+						esc(item.GetAttribute("dis", "")), 
+						esc(item.GetAttribute("ae", "")) 
+					)
+				);
+			}
+			
+			return sequences;
+		}
 
-        public string getFilePattern(string config) {
-            return getValueFromXMLWithXpath(config, "//configuration/filePattern[1]");
-        }
+		public string getFilePattern(string config) {
+			return getValueFromXMLWithXpath(config, "//configuration/filePattern[1]");
+		}
 
-        public string getValueFromXMLWithXpath(string config, string xp){
-            XPathNavigator nav = XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
-            XPathNodeIterator xpni = nav.Select(xp);
-            foreach (XPathNavigator item in xpni){
-                return esc(item.Value);
-            }
-            return "";
-        }
+		public string getValueFromXMLWithXpath(string config, string xp){
+			XPathNavigator nav = XPathHandler.getInstance().setupUp("xml/" + config + ".xml");
+			XPathNodeIterator xpni = nav.Select(xp);
+			foreach (XPathNavigator item in xpni){
+				return esc(item.Value);
+			}
+			return "";
+		}
 
-        public string getCommand(string configFile, string s){
-            return getValueFromXMLWithXpath(configFile, "//configuration/commands/command[@name='" + s + "']");
-        }
+		public string getCommand(string configFile, string s){
+			return getValueFromXMLWithXpath(configFile, "//configuration/commands/command[@name='" + s + "']");
+		}
 
-        public Command getCommand(string configFile, int i){
+		public Command getCommand(string configFile, int i){
 
-            XPathNavigator nav      = XPathHandler.getInstance().setupUp("xml/" + configFile + ".xml");
-            XPathNodeIterator xpni  = nav.Select("//configuration/commands/command[" + i + "]");
-            Command c = null;
-            foreach (XPathNavigator item in xpni) {
-                c = new Command(esc(item.GetAttribute("name", "")), esc(item.Value));
-            }
-            
-            return c;
-        }
+			XPathNavigator nav	  = XPathHandler.getInstance().setupUp("xml/" + configFile + ".xml");
+			XPathNodeIterator xpni  = nav.Select("//configuration/commands/command[" + i + "]");
+			Command c = null;
+			foreach (XPathNavigator item in xpni) {
+				c = new Command(esc(item.GetAttribute("name", "")), esc(item.Value));
+			}
+			
+			return c;
+		}
 
-        private string esc(string s){
-            return s.Replace("&lt;", "<").Replace("&gt;", ">").Replace("&amp;", "&").Replace("&quot;", "\"").Replace("&apos;", "’").Replace("&#39;", "’");
-            //return System.Security.SecurityElement.Escape(s);
-        }
-    }
+		private string esc(string s){
+			return s.Replace("&lt;", "<").Replace("&gt;", ">").Replace("&amp;", "&").Replace("&quot;", "\"").Replace("&apos;", "’").Replace("&#39;", "’");
+			//return System.Security.SecurityElement.Escape(s);
+		}
+	}
 }

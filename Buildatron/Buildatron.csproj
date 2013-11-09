@@ -16,7 +16,7 @@
     <ManifestCertificateThumbprint>83E13459C589E95EBD393645296553B2F85E7B22</ManifestCertificateThumbprint>
     <ManifestKeyFile>Buildatron_TemporaryKey.pfx</ManifestKeyFile>
     <GenerateManifests>true</GenerateManifests>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -74,7 +74,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeFile1.cs" />
     <Compile Include="Commands\Command.cs" />
+    <Compile Include="Commands\Sequence.cs" />
     <Compile Include="Commands\ViewableCommands.cs" />
     <Compile Include="Handling\Process\ProcessHandle.cs" />
     <Compile Include="Scene\s\userControl\BottomUserControl.cs">

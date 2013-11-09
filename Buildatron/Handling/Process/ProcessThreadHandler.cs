@@ -9,7 +9,6 @@ public class ProcessThreadHandler : ThreadHandler{
 
 	private delegate void enableControlsCallBack(Control c);
 
-
     private ProcessHandle ph;
 
     public ProcessThreadHandler(ProcessHandle ph){
