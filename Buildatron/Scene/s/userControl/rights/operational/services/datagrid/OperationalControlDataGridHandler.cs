@@ -67,13 +67,9 @@ namespace Buildatron.Scene.s.userControl.rights.operational.services.datagrid{
 			view.Rows.Add(directoryDataGridViewRow);
 		}
 		public void addSavedRows(DataGridView view, string config){
-	        List<Command> cmds = PreloadedConfigurationGetterService.getInstance().getCommandsFromXMLConfiguration(config);
 			foreach(Sequence seq in PreloadedConfigurationGetterService.getInstance().getSequencesFromXMLConfiguration(config)){
 				addRow(view, new FileDirectory(seq.directory(), null), config);
-                //((DataGridViewComboBoxCell)view.Rows[view.Rows.Count - 1].Cells[1]).Value = cmds[int.Parse(seq.command())].getName();
                 view.Rows[view.Rows.Count - 1].Cells[1].Value = ((DataGridViewComboBoxCell)view.Rows[view.Rows.Count - 1].Cells[1]).Items[int.Parse(seq.command())];
-                //view.Rows[view.Rows.Count - 1].Cells[1].Value = seq.command();
-                //((DataGridViewComboBoxCell)dr.Cells[1]).Items.IndexOf(dr.Cells[1].Value).ToString()
                 view.Rows[view.Rows.Count - 1].Cells[2].Value = seq.include()   == "1" ? true : false;
                 view.Rows[view.Rows.Count - 1].Cells[3].Value = seq.display()   == "1" ? true : false;
                 view.Rows[view.Rows.Count - 1].Cells[4].Value = seq.autoExit()  == "1" ? true : false;
