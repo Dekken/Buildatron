@@ -74,7 +74,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodeFile1.cs" />
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\Sequence.cs" />
     <Compile Include="Commands\ViewableCommands.cs" />
