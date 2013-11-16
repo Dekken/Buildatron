@@ -157,6 +157,7 @@
     <Compile Include="Scene\s\userControl\UserControlForm.Designer.cs">
       <DependentUpon>UserControlForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="Windows\Forms\Data\Grid\View\Directory\DirectoryDataGridViewTextBoxCell.cs" />
     <Compile Include="Windows\Forms\Data\Grid\View\Directory\DirectoryDataGridViewRow.cs">
     </Compile>
