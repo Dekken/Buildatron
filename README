@@ -1,1 +1,5 @@
-Coming soon
+
+
+This is a C# visual process sequence, designed to aid in the development of large Maven projects. Relying on xml files to store profile information along with the current state of each profile, which is saved when the application exits normally.
+
+Requires .Net Framework 3.5 or higher.
